@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 
 # executing the instructions from the "chinook" database
 db = create_engine("postgresql:///chinook")
-base = declerative_base()
+base = declarative_base()
 
 
 # create a class-based model for the "Artist" table
